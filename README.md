@@ -163,7 +163,7 @@ group by department;
 
 ## Summary of Findings
 
- - There is a higher distribution of male employees.
+ - There more number of male employees.
    
  -The races with the greatest number is white, while American Indian and Native Hawaiian are the least prevalent.
    
@@ -171,7 +171,7 @@ group by department;
    
  - 5 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64). A large number of employees were between 35-44 followed by 25-34 while the smallest group was 55-64.
    
- - Many employees are based in the headquarters as opposed to working remotely.
+ - A large number of employees work at Headquarter than the remote location.
    
  - The average length of employment for terminated employees is around 8 years.
    
