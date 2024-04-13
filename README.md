@@ -1,8 +1,12 @@
 # HR-Employee-Distribution-Report
 
-## Project Overview
+## Introduction
 
-The goal of this project, HR employee distribution, is to provide HR managers and business leaders with a comprehensive approach to monitor and evaluate employee data in order to make data-driven choices regarding hiring.
+This project provides valuable insights into the distribution of employees in an organization, which can be crucial for HR management and strategic planning.
+
+## Project overview
+
+Here in this project, I have been given a raw data of Human Resources that contains all the information about the employee like first name, last name, birthdate, race, gender, department, job title, location, hiring date, termination date, employee city and employee state. My job in this project is to clean the raw data , then find the useful insights from the data and then display all those useful insights in the form of Visualizations.
 
 ## Data Used
 
@@ -34,7 +38,8 @@ Remove null values if its not going to affect the result.
 
 Find & Replace
 
-**DATA ANALYSIS**
+
+## **DATA ANALYSIS**
 
 Include some interesting Codes/features worked with
 
@@ -43,7 +48,7 @@ select * from Table 1
 where condition = 3;
 ```
 
-## Questions
+## Questions and Answers
 
 1. What is the gender breakdown of employees in the company?
 ``` sql
