@@ -156,22 +156,56 @@ where termdate<=curdate() and termdate<>'0000-00-00' and age>=18
 group by department;
 ```
 
-
 ## Summary of Findings
- - There are more male employees
- - White race is the most dominant while Native Hawaiian and American Indian are the least dominant.
- - The youngest employee is 20 years old and the oldest is 57 years old
- - 5 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64). A large number of employees were between 25-34 followed by 35-44 while the smallest group was 55-64.
- - A large number of employees work at the headquarters versus remotely.
- - The average length of employment for terminated employees is around 7 years.
- - The gender distribution across departments is fairly balanced but there are generally more male than female employees.
+
+ - There is a higher distribution of male employees.
+   
+ -The races with the greatest number is white, while American Indian and Native Hawaiian are the least prevalent.
+   
+ - The youngest employee is 21 years old and the oldest is 58 years old
+   
+ - 5 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64). A large number of employees were between 35-44 followed by 25-34 while the smallest group was 55-64.
+   
+ - Many employees are based in the headquarters as opposed to working remotely.
+   
+ - The average length of employment for terminated employees is around 8 years.
+   
+ - In general there are more male employees than female employees, however the ratio of genders among departments is quite balanced.
+   
  - The Marketing department has the highest turnover rate followed by Training. The least turn over rate are in the Research and development, Support and Legal departments.
+   
  - A large number of employees come from the state of Ohio.
+   
  - The net change in employees has increased over the years.
-- The average tenure for each department is about 8 years with Legal and Auditing having the highest and Services, Sales and Marketing having the lowest.
+
+ - Research assistant II has the most number of distributions based on the job title.
+   
+- The year 2009 had the greatest number of hires (1094) , and the year 2000 had the lowest number of hires (211).
+
+- The majority of terminations occurred in 2001 and 2004. 
 
 ## Limitations
 
-- Some records had negative ages and these were excluded during querying(967 records). Ages used were 18 years and above.
-- Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
+- During the searching process, records with negative ages were eliminated, totaling 967 records. The age range used was 18 years old and up.
+- A few termdates (1599 records) were excluded from the analysis because they were too far in the future. Dates that were less than or equal to the present date were the only terms that were used.
+
+
+![HR Dashboard1](https://github.com/nansa93/HR-Employee-Distribution-Report/assets/166003206/822f909c-e0d8-4c63-be12-3ecb47540cd2)
+
+
+![HR Dashboard 2](https://github.com/nansa93/HR-Employee-Distribution-Report/assets/166003206/c7826fd2-68d8-428e-beaa-6a04aad2d509)
+
+
+![HR Dashboard 3](https://github.com/nansa93/HR-Employee-Distribution-Report/assets/166003206/25e2bc9b-4545-4069-b741-fa4e2493cd9f)
+
+
+
+
+
+
+
+
+
+
+
 
